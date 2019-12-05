@@ -1,0 +1,21 @@
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.xu.vediorental.dao.UserDao">
+
+    <select id="findAll" resultType="UserInfo">
+      select * from userinfo where role = 0
+    </select>
+
+    <select id="findByName" parameterType="string" resultType="UserInfo">
+        select * from userinfo where username = #{username}
+    </select>
+
+    <insert id="add" parameterType="UserInfo">
+        insert into userinfo(username, password, phonenum, role) values(#{username},#{password},#{phonenum},#{role});
+    </insert>
+
+    <delete id="deleteByName" parameterType="string">
+        delete from userinfo where username = #{username}
+    </delete>
+</mapper>
