@@ -16,13 +16,13 @@
     </select>
 
     <select id="findAllNoReturn" parameterType="string" resultType="NoReturnInfo">
-        select a.name,a.fid,a.lend,(curdate()-a.lend+1)*b.price as amount from userrentalhistory as a,vedioinfo as b where a.username=#{username} and a.back is null and a.name=b.name
+        select a.name,a.fid,a.lend,(curdate()-a.lend+1)*b.price as amount,a.deposit from userrentalhistory as a,vedioinfo as b where a.username=#{username} and a.back is null and a.name=b.name
     </select>
 
     <insert id="addRecording" parameterType="LendInfo">
-        insert into recordinfo(username,fid,lend) values(#{username},#{fid},#{lend})
+        insert into recordinfo(username,fid,lend,deposit) values(#{username},#{fid},#{lend},#{deposit})
     </insert>
-    
+
     <update id="updateRecording" parameterType="BackInfo">
         update recordinfo set back = #{back},amount = #{amount} where username = #{username} and fid = #{fid}
     </update>
@@ -56,7 +56,7 @@
     </select>
 
     <select id="findAllRecordingByUsername" parameterType="string" resultType="UserRentalHistory">
-        select u.name,u.fid,u.lend,u.back,u.amount from userrentalhistory u where u.username = #{username}
+        select u.name,u.fid,u.lend,u.back,u.amount,u.deposit from userrentalhistory u where u.username = #{username}
     </select>
 
     <delete id="deleteVedioById" parameterType="long">

@@ -97,8 +97,9 @@ public interface ManagerService  {
      * @param username 用户名
      * @param vedioname 录像名
      * @param fid 文件名
+     * @param deposit 押金
      */
-    void rentVedio(String username,String vedioname, long fid);
+    void rentVedio(String username,String vedioname, long fid,long deposit);
 
     /**
      * 归还录像

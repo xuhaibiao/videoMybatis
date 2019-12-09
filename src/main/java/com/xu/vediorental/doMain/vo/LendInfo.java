@@ -11,6 +11,15 @@ public class LendInfo {
     private String username;
     private long fid;
     private java.sql.Date lend;
+    private long deposit;
+
+    public long getDeposit() {
+        return deposit;
+    }
+
+    public void setDeposit(long deposit) {
+        this.deposit = deposit;
+    }
 
     public String getUsername() {
         return username;

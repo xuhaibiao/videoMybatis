@@ -6,10 +6,19 @@ package com.xu.vediorental.doMain.vo;
  * @modified By
  */
 public class NoReturnInfo {
-        private String name;
-        private long fid;
-        private java.sql.Date lend;
-        private double amount;
+    private String name;
+    private long fid;
+    private java.sql.Date lend;
+    private double amount;
+    private long deposit;
+
+    public long getDeposit() {
+        return deposit;
+    }
+
+    public void setDeposit(long deposit) {
+        this.deposit = deposit;
+    }
 
     public String getName() {
         return name;

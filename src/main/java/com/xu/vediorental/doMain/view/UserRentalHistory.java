@@ -8,7 +8,15 @@ public class UserRentalHistory{
   private java.sql.Date lend;
   private java.sql.Date back;
   private double amount;
+  private long deposit;
 
+  public long getDeposit() {
+    return deposit;
+  }
+
+  public void setDeposit(long deposit) {
+    this.deposit = deposit;
+  }
 
   public String getName() {
     return name;

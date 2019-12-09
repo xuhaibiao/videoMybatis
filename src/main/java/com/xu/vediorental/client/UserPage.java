@@ -113,7 +113,7 @@ public class UserPage extends JFrame {
 
         recordTableModel = new DefaultTableModel(GetDataUtil.getRecordData(username),
                 new String[] {
-                        "录像名", "文件号", "租借日期", "归还日期", "租金"
+                        "录像名", "文件号", "租借日期", "押金", "归还日期", "租金"
                 }){
             @Override
             public boolean isCellEditable(int row, int column)
@@ -149,7 +149,7 @@ public class UserPage extends JFrame {
 		returnHead.setFont(new Font("微软雅黑", Font.PLAIN, 15));
         noReturnTableModel = new DefaultTableModel(GetDataUtil.getNoReturnData(username),
                 new String[] {
-                        "录像名", "文件号", "租借日期", "所需租金"
+                        "录像名", "文件号", "租借日期", "押金", "所需租金"
                 }){
             @Override
             public boolean isCellEditable(int row, int column)

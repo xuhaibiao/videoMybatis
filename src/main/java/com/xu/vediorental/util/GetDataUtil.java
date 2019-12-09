@@ -25,25 +25,27 @@ public class GetDataUtil {
     private static ManagerService managerService = new ManagerServiceImpl();
     public static Object[][] getRecordData(String username) {
         List<UserRentalHistory> allRecording = userService.findAllRecording(username);
-        Object[][] recordingData = new Object[allRecording.size()][5];
+        Object[][] recordingData = new Object[allRecording.size()][6];
         for (int i = 0; i < allRecording.size(); i++) {
             recordingData[i][0] = allRecording.get(i).getName();
             recordingData[i][1] = allRecording.get(i).getFid();
             recordingData[i][2] = allRecording.get(i).getLend();
-            recordingData[i][3] = allRecording.get(i).getBack();
-            recordingData[i][4] = allRecording.get(i).getAmount();
+            recordingData[i][3] = allRecording.get(i).getDeposit();
+            recordingData[i][4] = allRecording.get(i).getBack();
+            recordingData[i][5] = allRecording.get(i).getAmount();
         }
         return recordingData;
     }
 
     public static Object[][] getNoReturnData(String username) {
         List<NoReturnInfo> allNoReturn = userService.findAllNoReturn(username);
-        Object[][] noReturnData = new Object[allNoReturn.size()][4];
+        Object[][] noReturnData = new Object[allNoReturn.size()][5];
         for (int i = 0; i < allNoReturn.size(); i++) {
             noReturnData[i][0] = allNoReturn.get(i).getName();
             noReturnData[i][1] = allNoReturn.get(i).getFid();
             noReturnData[i][2] = allNoReturn.get(i).getLend();
-            noReturnData[i][3] = allNoReturn.get(i).getAmount();
+            noReturnData[i][3] = allNoReturn.get(i).getDeposit();
+            noReturnData[i][4] = allNoReturn.get(i).getAmount();
 
         }
         return noReturnData;

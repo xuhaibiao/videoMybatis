@@ -91,10 +91,11 @@ public class ManagerServiceImpl extends Common implements ManagerService {
         return usernames;
     }
 
-    public void rentVedio(String username,String vedioname, long fid) {
+    public void rentVedio(String username,String vedioname, long fid, long deposit) {
         LendInfo lendInfo = new LendInfo();
         lendInfo.setFid(fid);
         lendInfo.setUsername(username);
+        lendInfo.setDeposit(deposit);
         Date date = new Date(new java.util.Date().getTime());
         lendInfo.setLend(date);
         vedioDao.addRecording(lendInfo);

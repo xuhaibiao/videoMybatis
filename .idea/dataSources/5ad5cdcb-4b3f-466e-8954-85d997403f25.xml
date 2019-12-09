@@ -1120,7 +1120,7 @@
       <SourceTextLength>290</SourceTextLength>
     </view>
     <view id="284" parent="8" name="userrentalhistory">
-      <SourceTextLength>495</SourceTextLength>
+      <SourceTextLength>543</SourceTextLength>
     </view>
     <view id="285" parent="8" name="vacantfile">
       <SourceTextLength>296</SourceTextLength>
@@ -1203,197 +1203,206 @@
       <DataType>float(4)|0s</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <index id="301" parent="280" name="rid_index">
+    <column id="301" parent="280" name="deposit">
+      <Position>7</Position>
+      <DataType>int(4)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <index id="302" parent="280" name="rid_index">
       <ColNames>id</ColNames>
       <Unique>1</Unique>
       <Type>btree</Type>
     </index>
-    <index id="302" parent="280" name="username">
+    <index id="303" parent="280" name="username">
       <ColNames>username</ColNames>
       <Type>btree</Type>
     </index>
-    <index id="303" parent="280" name="fid">
+    <index id="304" parent="280" name="fid">
       <ColNames>fid</ColNames>
       <Type>btree</Type>
     </index>
-    <key id="304" parent="280" name="PRIMARY">
+    <key id="305" parent="280" name="PRIMARY">
       <NameSurrogate>1</NameSurrogate>
       <ColNames>id</ColNames>
       <Primary>1</Primary>
     </key>
-    <key id="305" parent="280" name="rid_index">
+    <key id="306" parent="280" name="rid_index">
       <ColNames>id</ColNames>
       <UnderlyingIndexName>rid_index</UnderlyingIndexName>
     </key>
-    <foreign-key id="306" parent="280" name="username">
+    <foreign-key id="307" parent="280" name="username">
       <ColNames>username</ColNames>
       <RefSchemaName>vediorent</RefSchemaName>
       <RefTableName>userinfo</RefTableName>
       <RefColNames>username</RefColNames>
       <OnDelete>cascade</OnDelete>
     </foreign-key>
-    <foreign-key id="307" parent="280" name="fid">
+    <foreign-key id="308" parent="280" name="fid">
       <ColNames>fid</ColNames>
       <RefSchemaName>vediorent</RefSchemaName>
       <RefTableName>fileinfo</RefTableName>
       <RefColNames>id</RefColNames>
       <OnDelete>cascade</OnDelete>
     </foreign-key>
-    <column id="308" parent="281" name="username">
+    <column id="309" parent="281" name="username">
       <Position>1</Position>
       <DataType>varchar(11)|0s</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="309" parent="281" name="password">
+    <column id="310" parent="281" name="password">
       <Position>2</Position>
       <DataType>varchar(11)|0s</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="310" parent="281" name="phonenum">
+    <column id="311" parent="281" name="phonenum">
       <Position>3</Position>
       <DataType>varchar(11)|0s</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="311" parent="281" name="role">
+    <column id="312" parent="281" name="role">
       <Position>4</Position>
       <DataType>int(1)|0s</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <index id="312" parent="281" name="username_index">
+    <index id="313" parent="281" name="username_index">
       <ColNames>username</ColNames>
       <Unique>1</Unique>
       <Type>btree</Type>
     </index>
-    <key id="313" parent="281" name="PRIMARY">
+    <key id="314" parent="281" name="PRIMARY">
       <NameSurrogate>1</NameSurrogate>
       <ColNames>username</ColNames>
       <Primary>1</Primary>
     </key>
-    <key id="314" parent="281" name="username_index">
+    <key id="315" parent="281" name="username_index">
       <ColNames>username</ColNames>
       <UnderlyingIndexName>username_index</UnderlyingIndexName>
     </key>
-    <column id="315" parent="282" name="id">
+    <column id="316" parent="282" name="id">
       <Position>1</Position>
       <DataType>int(4)|0s</DataType>
       <NotNull>1</NotNull>
       <SequenceIdentity>1</SequenceIdentity>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="316" parent="282" name="name">
+    <column id="317" parent="282" name="name">
       <Position>2</Position>
       <DataType>varchar(11)|0s</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
       <Collation>utf8mb4_0900_ai_ci</Collation>
     </column>
-    <column id="317" parent="282" name="price">
+    <column id="318" parent="282" name="price">
       <Position>3</Position>
       <DataType>float(4,2 digit)|0s</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="318" parent="282" name="inventory">
+    <column id="319" parent="282" name="inventory">
       <Position>4</Position>
       <DataType>int(4)|0s</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <index id="319" parent="282" name="vid_index">
+    <index id="320" parent="282" name="vid_index">
       <ColNames>id</ColNames>
       <Unique>1</Unique>
       <Type>btree</Type>
     </index>
-    <index id="320" parent="282" name="name">
+    <index id="321" parent="282" name="name">
       <ColNames>name</ColNames>
       <Unique>1</Unique>
       <Type>btree</Type>
     </index>
-    <key id="321" parent="282" name="PRIMARY">
+    <key id="322" parent="282" name="PRIMARY">
       <NameSurrogate>1</NameSurrogate>
       <ColNames>id
 name</ColNames>
       <Primary>1</Primary>
     </key>
-    <key id="322" parent="282" name="vid_index">
+    <key id="323" parent="282" name="vid_index">
       <ColNames>id</ColNames>
       <UnderlyingIndexName>vid_index</UnderlyingIndexName>
     </key>
-    <key id="323" parent="282" name="name">
+    <key id="324" parent="282" name="name">
       <ColNames>name</ColNames>
       <UnderlyingIndexName>name</UnderlyingIndexName>
     </key>
-    <column id="324" parent="283" name="id">
+    <column id="325" parent="283" name="id">
       <Position>1</Position>
       <DataType>int(4)|0s</DataType>
       <NotNull>1</NotNull>
     </column>
-    <column id="325" parent="283" name="status">
+    <column id="326" parent="283" name="status">
       <Position>2</Position>
       <DataType>int(1)|0s</DataType>
     </column>
-    <column id="326" parent="283" name="name">
+    <column id="327" parent="283" name="name">
       <Position>3</Position>
       <DataType>varchar(11)|0s</DataType>
       <NotNull>1</NotNull>
     </column>
-    <column id="327" parent="283" name="vid">
+    <column id="328" parent="283" name="vid">
       <Position>4</Position>
       <DataType>int(4)|0s</DataType>
     </column>
-    <column id="328" parent="284" name="username">
+    <column id="329" parent="284" name="username">
       <Position>1</Position>
       <DataType>varchar(11)|0s</DataType>
     </column>
-    <column id="329" parent="284" name="name">
+    <column id="330" parent="284" name="name">
       <Position>2</Position>
       <DataType>varchar(11)|0s</DataType>
       <NotNull>1</NotNull>
     </column>
-    <column id="330" parent="284" name="fid">
+    <column id="331" parent="284" name="fid">
       <Position>3</Position>
       <DataType>int(4)|0s</DataType>
     </column>
-    <column id="331" parent="284" name="lend">
+    <column id="332" parent="284" name="lend">
       <Position>4</Position>
       <DataType>date|0s</DataType>
     </column>
-    <column id="332" parent="284" name="back">
+    <column id="333" parent="284" name="back">
       <Position>5</Position>
       <DataType>date|0s</DataType>
     </column>
-    <column id="333" parent="284" name="amount">
+    <column id="334" parent="284" name="amount">
       <Position>6</Position>
       <DataType>float(4)|0s</DataType>
     </column>
-    <column id="334" parent="285" name="name">
+    <column id="335" parent="284" name="deposit">
+      <Position>7</Position>
+      <DataType>int(4)|0s</DataType>
+    </column>
+    <column id="336" parent="285" name="name">
       <Position>1</Position>
       <DataType>varchar(11)|0s</DataType>
       <NotNull>1</NotNull>
     </column>
-    <column id="335" parent="285" name="fid">
+    <column id="337" parent="285" name="fid">
       <Position>2</Position>
       <DataType>int(4)|0s</DataType>
       <NotNull>1</NotNull>
     </column>
-    <column id="336" parent="285" name="price">
+    <column id="338" parent="285" name="price">
       <Position>3</Position>
       <DataType>float(4,2 digit)|0s</DataType>
       <NotNull>1</NotNull>
     </column>
-    <column id="337" parent="286" name="name">
+    <column id="339" parent="286" name="name">
       <Position>1</Position>
       <DataType>varchar(11)|0s</DataType>
       <NotNull>1</NotNull>
     </column>
-    <column id="338" parent="286" name="price">
+    <column id="340" parent="286" name="price">
       <Position>2</Position>
       <DataType>float(4,2 digit)|0s</DataType>
       <NotNull>1</NotNull>
     </column>
-    <column id="339" parent="286" name="inventory">
+    <column id="341" parent="286" name="inventory">
       <Position>3</Position>
       <DataType>int(4)|0s</DataType>
     </column>
