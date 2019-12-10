@@ -2,44 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="06da7042-8e2d-4bca-9492-a468c64c000f" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/5ad5cdcb-4b3f-466e-8954-85d997403f25.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/5ad5cdcb-4b3f-466e-8954-85d997403f25.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/5ad5cdcb-4b3f-466e-8954-85d997403f25/storage_v2/_src_/schema/vediorent.NGnPtg.zip" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/5ad5cdcb-4b3f-466e-8954-85d997403f25/storage_v2/_src_/schema/vediorent.NGnPtg.zip" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/xu/vediorental/client/AdministratorPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/xu/vediorental/client/AdministratorPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/xu/vediorental/client/UserPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/xu/vediorental/client/UserPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/xu/vediorental/doMain/table/RecordInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/xu/vediorental/doMain/table/RecordInfo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/xu/vediorental/doMain/view/UserRentalHistory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/xu/vediorental/doMain/view/UserRentalHistory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/xu/vediorental/doMain/vo/LendInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/xu/vediorental/doMain/vo/LendInfo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/xu/vediorental/doMain/vo/NoReturnInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/xu/vediorental/doMain/vo/NoReturnInfo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/xu/vediorental/dao/VedioDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/xu/vediorental/dao/VedioDao.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/xu/vediorental/service/ManagerService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/xu/vediorental/service/ManagerService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/xu/vediorental/service/impl/ManagerServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/xu/vediorental/service/impl/ManagerServiceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/xu/vediorental/util/GetDataUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/xu/vediorental/util/GetDataUtil.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/com/xu/vediorental/dao/VedioDao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/xu/vediorental/dao/VedioDao.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/xu/vediorental/client/AdministratorPage$10.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/xu/vediorental/client/AdministratorPage$10.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/xu/vediorental/client/AdministratorPage$11.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/xu/vediorental/client/AdministratorPage$11.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/xu/vediorental/client/AdministratorPage$12.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/xu/vediorental/client/AdministratorPage$12.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/xu/vediorental/client/AdministratorPage$13.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/xu/vediorental/client/AdministratorPage$13.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/xu/vediorental/client/AdministratorPage$14.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/xu/vediorental/client/AdministratorPage$14.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/xu/vediorental/client/AdministratorPage$15.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/xu/vediorental/client/AdministratorPage$15.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/xu/vediorental/client/AdministratorPage$16.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/xu/vediorental/client/AdministratorPage$16.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/xu/vediorental/client/AdministratorPage$17.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/xu/vediorental/client/AdministratorPage$17.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/xu/vediorental/client/AdministratorPage$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/xu/vediorental/client/AdministratorPage$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/xu/vediorental/client/AdministratorPage$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/xu/vediorental/client/AdministratorPage$3.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/xu/vediorental/client/AdministratorPage$4.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/xu/vediorental/client/AdministratorPage$4.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/xu/vediorental/client/AdministratorPage$5.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/xu/vediorental/client/AdministratorPage$5.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/xu/vediorental/client/AdministratorPage$6.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/xu/vediorental/client/AdministratorPage$6.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/xu/vediorental/client/AdministratorPage$7.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/xu/vediorental/client/AdministratorPage$7.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/xu/vediorental/client/AdministratorPage$8.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/xu/vediorental/client/AdministratorPage$8.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/xu/vediorental/client/AdministratorPage$9.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/xu/vediorental/client/AdministratorPage$9.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/xu/vediorental/client/AdministratorPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/xu/vediorental/client/AdministratorPage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/xu/vediorental/client/UserPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/xu/vediorental/client/UserPage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/xu/vediorental/dao/VedioDao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/xu/vediorental/dao/VedioDao.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/xu/vediorental/doMain/table/RecordInfo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/xu/vediorental/doMain/table/RecordInfo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/xu/vediorental/doMain/view/UserRentalHistory.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/xu/vediorental/doMain/view/UserRentalHistory.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/xu/vediorental/doMain/vo/LendInfo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/xu/vediorental/doMain/vo/LendInfo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/xu/vediorental/doMain/vo/NoReturnInfo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/xu/vediorental/doMain/vo/NoReturnInfo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/xu/vediorental/service/ManagerService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/xu/vediorental/service/ManagerService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/xu/vediorental/service/impl/ManagerServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/xu/vediorental/service/impl/ManagerServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/xu/vediorental/util/GetDataUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/xu/vediorental/util/GetDataUtil.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -80,7 +51,7 @@
     <session id="-732948596">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="11" />
+          <entry key="project.closed" value="12" />
           <entry key="project.open.time.111" value="1" />
           <entry key="project.open.time.12" value="1" />
           <entry key="project.open.time.184" value="1" />
@@ -88,16 +59,17 @@
           <entry key="project.open.time.39" value="1" />
           <entry key="project.open.time.4" value="1" />
           <entry key="project.open.time.41" value="1" />
+          <entry key="project.open.time.46" value="1" />
           <entry key="project.open.time.47" value="2" />
           <entry key="project.open.time.6" value="1" />
           <entry key="project.open.time.64" value="1" />
           <entry key="project.open.time.66" value="1" />
-          <entry key="project.opened" value="12" />
+          <entry key="project.opened" value="13" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="330" />
+          <entry key="java" value="334" />
           <entry key="properties" value="5" />
           <entry key="sql" value="1" />
           <entry key="userinfo" value="1" />
@@ -109,7 +81,7 @@
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="Database Element" value="4" />
-          <entry key="JAVA" value="330" />
+          <entry key="JAVA" value="334" />
           <entry key="Properties" value="5" />
           <entry key="Scratch" value="1" />
           <entry key="XML" value="48" />
@@ -118,20 +90,20 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="cell" value="18" />
-          <entry key="java" value="11176" />
+          <entry key="java" value="12078" />
           <entry key="properties" value="9" />
-          <entry key="txt" value="33" />
-          <entry key="xml" value="1666" />
+          <entry key="txt" value="51" />
+          <entry key="xml" value="1727" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="11176" />
-          <entry key="PLAIN_TEXT" value="33" />
+          <entry key="JAVA" value="12078" />
+          <entry key="PLAIN_TEXT" value="51" />
           <entry key="Properties" value="9" />
-          <entry key="SQL" value="13" />
+          <entry key="SQL" value="14" />
           <entry key="Scratch" value="18" />
-          <entry key="XML" value="1653" />
+          <entry key="XML" value="1713" />
         </counts>
       </usages-collector>
     </session>
@@ -139,81 +111,14 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/xu/vediorental/client/UserPage.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2575">
-              <caret line="151" column="51" selection-start-line="151" selection-start-column="51" selection-end-line="151" selection-end-column="51" />
-              <folding>
-                <element signature="e#4183#4184#0" expanded="true" />
-                <element signature="e#4227#4228#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/xu/vediorental/util/GetDaoUtil.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="720">
-              <caret line="44" column="51" selection-start-line="44" selection-start-column="51" selection-end-line="44" selection-end-column="51" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/xu/vediorental/util/GetDataUtil.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="458">
-              <caret line="46" column="65" lean-forward="true" selection-start-line="46" selection-start-column="65" selection-end-line="46" selection-end-column="65" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/xu/vediorental/service/UserService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="415">
-              <caret line="49" column="31" selection-start-line="49" selection-start-column="31" selection-end-line="49" selection-end-column="31" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/xu/vediorental/service/impl/UserServiceImpl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="408">
-              <caret line="32" column="30" selection-start-line="32" selection-start-column="30" selection-end-line="32" selection-end-column="30" />
-              <folding>
-                <element signature="e#1010#1011#0" expanded="true" />
-                <element signature="e#1067#1068#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/xu/vediorental/dao/VedioDao.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="48" column="23" selection-start-line="48" selection-start-column="23" selection-end-line="48" selection-end-column="23" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/com/xu/vediorental/dao/VedioDao.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="18" column="84" selection-start-line="18" selection-start-column="84" selection-end-line="18" selection-end-column="84" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/xu/vediorental/service/impl/ManagerServiceImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="319">
-              <caret line="99" column="31" lean-forward="true" selection-start-line="99" selection-start-column="31" selection-end-line="99" selection-end-column="31" />
+            <state relative-caret-position="296">
+              <caret line="125" column="62" lean-forward="true" selection-start-line="125" selection-start-column="62" selection-end-line="125" selection-end-column="62" />
+              <folding>
+                <element signature="e#3654#3655#0" expanded="true" />
+                <element signature="e#3682#3683#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -222,7 +127,29 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/com/xu/vediorental/doMain/vo/NoReturnInfo.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="288">
-              <caret line="12" column="25" lean-forward="true" selection-start-line="12" selection-start-column="25" selection-end-line="12" selection-end-column="25" />
+              <caret line="12" column="25" selection-start-line="12" selection-start-column="25" selection-end-line="12" selection-end-column="25" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/xu/vediorental/util/GetDataUtil.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-107">
+              <caret line="95" column="5" lean-forward="true" selection-start-line="95" selection-start-column="5" selection-end-line="95" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/xu/vediorental/doMain/view/AllFile.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="72">
+              <caret line="36" column="16" selection-start-line="36" selection-start-column="16" selection-end-line="36" selection-end-column="16" />
+              <folding>
+                <element signature="e#504#505#0" expanded="true" />
+                <element signature="e#525#526#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -230,8 +157,48 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/xu/vediorental/client/AdministratorPage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="8383">
-              <caret line="445" column="39" selection-start-line="445" selection-start-column="39" selection-end-line="445" selection-end-column="39" />
+            <state relative-caret-position="253">
+              <caret line="515" column="36" selection-start-line="515" selection-start-column="36" selection-end-line="515" selection-end-column="36" />
+              <folding>
+                <element signature="e#18262#19976#0" expanded="true" />
+                <element signature="e#19975#19976#0" expanded="true" />
+                <element signature="e#20021#20926#0" expanded="true" />
+                <element signature="e#20925#20926#0" expanded="true" />
+                <element signature="e#20974#22126#0" expanded="true" />
+                <element signature="e#22125#22126#0" expanded="true" />
+                <element signature="e#22170#23435#0" expanded="true" />
+                <element signature="e#23434#23435#0" expanded="true" />
+                <element signature="e#23482#24469#0" expanded="true" />
+                <element signature="e#24468#24469#0" expanded="true" />
+                <element signature="e#24513#25877#0" expanded="true" />
+                <element signature="e#25876#25877#0" expanded="true" />
+                <element signature="e#25918#27440#0" expanded="true" />
+                <element signature="e#27439#27440#0" expanded="true" />
+                <element signature="e#27476#27762#0" expanded="true" />
+                <element signature="e#27761#27762#0" expanded="true" />
+                <element signature="e#27801#29170#0" expanded="true" />
+                <element signature="e#29169#29170#0" expanded="true" />
+                <element signature="e#29212#29382#0" expanded="true" />
+                <element signature="e#29381#29382#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/xu/vediorental/service/ManagerService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="320">
+              <caret line="114" column="55" selection-start-line="114" selection-start-column="55" selection-end-line="114" selection-end-column="55" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/xu/vediorental/doMain/table/VedioInfo.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="192">
+              <caret line="8" column="18" selection-start-line="8" selection-start-column="12" selection-end-line="8" selection-end-column="18" />
             </state>
           </provider>
         </entry>
@@ -246,12 +213,21 @@
       </list>
     </option>
   </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>出借情况(0:已租借 1:未租借)</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>出借情况</replace>
+    </replaceStrings>
+  </component>
   <component name="Git.Settings">
     <option name="PREVIOUS_COMMIT_AUTHORS">
       <list>
         <option value="xuhaibiao" />
       </list>
     </option>
+    <option name="UPDATE_TYPE" value="MERGE" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GradleLocalSettings">
@@ -264,7 +240,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/com/xu/doMain/Recordinfo.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/xu/doMain/NoReturnInfo.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/xu/doMain/LendInfo.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/xu/doMain/RecordInfo.java" />
@@ -309,11 +284,12 @@
         <option value="$PROJECT_DIR$/src/main/java/com/xu/vediorental/doMain/table/RecordInfo.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/xu/vediorental/doMain/vo/LendInfo.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/xu/vediorental/doMain/vo/NoReturnInfo.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/xu/vediorental/service/ManagerService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/xu/vediorental/service/impl/ManagerServiceImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/xu/vediorental/client/UserPage.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/xu/vediorental/util/GetDataUtil.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/xu/vediorental/service/ManagerService.java" />
         <option value="$PROJECT_DIR$/src/main/resources/com/xu/vediorental/dao/VedioDao.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/xu/vediorental/dao/VedioDao.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/xu/vediorental/service/impl/ManagerServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/xu/vediorental/util/GetDataUtil.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/xu/vediorental/client/AdministratorPage.java" />
       </list>
     </option>
@@ -349,16 +325,18 @@
     <option name="vmOptions" value="-Dmaven.multiModuleProjectDirectory=$MAVEN_HOME" />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="156" />
-    <option name="y" value="144" />
-    <option name="width" value="999" />
-    <option name="height" value="816" />
+    <option name="x" value="234" />
+    <option name="y" value="216" />
+    <option name="width" value="1500" />
+    <option name="height" value="1224" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -563,15 +541,13 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="DatabaseDriversLRU" value="mysql" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1575903571351" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1575903654619" />
     <property name="database.console.LAST_STATE" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../Compiling" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -609,7 +585,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.UserPage">
+  <component name="RunManager" selected="Application.AdministratorPage">
     <configuration name="AdministratorPage" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.xu.vediorental.client.AdministratorPage" />
       <module name="vedioMybatis" />
@@ -684,8 +660,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.UserPage" />
         <item itemvalue="Application.AdministratorPage" />
+        <item itemvalue="Application.UserPage" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.IndexPage" />
         <item itemvalue="Application.LoginPage" />
@@ -713,7 +689,8 @@
       <workItem from="1575534811074" duration="1225000" />
       <workItem from="1575537152103" duration="1806000" />
       <workItem from="1575887342394" duration="636000" />
-      <workItem from="1575899774147" duration="3761000" />
+      <workItem from="1575899774147" duration="3899000" />
+      <workItem from="1575944001546" duration="5722000" />
     </task>
     <task id="LOCAL-00001" summary="1.0">
       <created>1575537520569</created>
@@ -722,7 +699,14 @@
       <option name="project" value="LOCAL" />
       <updated>1575537520569</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="增加押金项">
+      <created>1575903651085</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1575903651085</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -758,7 +742,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="97130000" />
+    <option name="totallyTimeSpent" value="102990000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -770,10 +754,9 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
+    <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4989154" visible="true" weight="0.2835821" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4989154" visible="true" weight="0.26354083" />
       <window_info id="Structure" order="1" sideWeight="0.5010846" side_tool="true" weight="0.26332623" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -782,7 +765,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3285968" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.45711184" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.455516" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3991323" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -792,7 +775,7 @@
       <window_info anchor="bottom" id="Database Changes" order="9" weight="0.32899022" />
       <window_info anchor="bottom" id="Terminal" order="10" weight="0.32899022" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" weight="0.32899022" />
-      <window_info anchor="bottom" id="Messages" order="12" weight="0.32681867" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.32562277" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" sideWeight="0.4989154" weight="0.24946696" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -813,7 +796,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="1.0" />
-    <option name="LAST_COMMIT_MESSAGE" value="1.0" />
+    <MESSAGE value="增加押金项" />
+    <option name="LAST_COMMIT_MESSAGE" value="增加押金项" />
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
@@ -866,21 +850,7 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/com/xu/util/GetNoReturnData.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/com/xu/doMain/VedioInfoVo.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/com/xu/doMain/vo.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/xu/vediorental/doMain/table/VedioInfo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/xu/vediorental/doMain/table/UserInfo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/xu/vediorental/doMain/view/AllFile.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="72">
           <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
@@ -979,12 +949,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="504">
           <caret line="21" column="5" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
-          <folding>
-            <element signature="e#305#306#0" expanded="true" />
-            <element signature="e#329#330#0" expanded="true" />
-            <element signature="e#371#372#0" expanded="true" />
-            <element signature="e#403#404#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1009,13 +973,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/xu/vediorental/service/ManagerService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="511">
-          <caret line="103" column="7" lean-forward="true" selection-start-line="103" selection-start-column="7" selection-end-line="103" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/xu/vediorental/doMain/table/RecordInfo.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
@@ -1027,12 +984,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="504">
           <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
-          <folding>
-            <element signature="e#255#256#0" expanded="true" />
-            <element signature="e#279#280#0" expanded="true" />
-            <element signature="e#321#322#0" expanded="true" />
-            <element signature="e#353#354#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1052,26 +1003,50 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/xu/vediorental/client/UserPage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2575">
+        <state relative-caret-position="3240">
           <caret line="151" column="51" selection-start-line="151" selection-start-column="51" selection-end-line="151" selection-end-column="51" />
-          <folding>
-            <element signature="e#4183#4184#0" expanded="true" />
-            <element signature="e#4227#4228#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/xu/vediorental/util/GetDaoUtil.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="720">
+        <state relative-caret-position="864">
           <caret line="44" column="51" selection-start-line="44" selection-start-column="51" selection-end-line="44" selection-end-column="51" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/xu/vediorental/service/UserService.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/xu/vediorental/doMain/table/VedioInfo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="415">
-          <caret line="49" column="31" selection-start-line="49" selection-start-column="31" selection-end-line="49" selection-end-column="31" />
+        <state relative-caret-position="192">
+          <caret line="8" column="18" selection-start-line="8" selection-start-column="12" selection-end-line="8" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/xu/vediorental/service/ManagerService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="320">
+          <caret line="114" column="55" selection-start-line="114" selection-start-column="55" selection-end-line="114" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/xu/vediorental/doMain/vo/NoReturnInfo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="12" column="25" selection-start-line="12" selection-start-column="25" selection-end-line="12" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/com/xu/vediorental/dao/VedioDao.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="426">
+          <caret line="75" column="13" lean-forward="true" selection-start-line="75" selection-start-column="13" selection-end-line="75" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/xu/vediorental/dao/VedioDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="368">
+          <caret line="133" lean-forward="true" selection-start-line="133" selection-end-line="133" />
         </state>
       </provider>
     </entry>
@@ -1086,45 +1061,68 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/xu/vediorental/util/GetDataUtil.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/xu/vediorental/service/UserService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="458">
-          <caret line="46" column="65" lean-forward="true" selection-start-line="46" selection-start-column="65" selection-end-line="46" selection-end-column="65" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/xu/vediorental/dao/VedioDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="48" column="23" selection-start-line="48" selection-start-column="23" selection-end-line="48" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/com/xu/vediorental/dao/VedioDao.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="84" selection-start-line="18" selection-start-column="84" selection-end-line="18" selection-end-column="84" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/xu/vediorental/doMain/vo/NoReturnInfo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="12" column="25" lean-forward="true" selection-start-line="12" selection-start-column="25" selection-end-line="12" selection-end-column="25" />
+        <state relative-caret-position="415">
+          <caret line="49" column="31" selection-start-line="49" selection-start-column="31" selection-end-line="49" selection-end-column="31" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/xu/vediorental/service/impl/ManagerServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="319">
-          <caret line="99" column="31" lean-forward="true" selection-start-line="99" selection-start-column="31" selection-end-line="99" selection-end-column="31" />
+        <state relative-caret-position="296">
+          <caret line="125" column="62" lean-forward="true" selection-start-line="125" selection-start-column="62" selection-end-line="125" selection-end-column="62" />
+          <folding>
+            <element signature="e#3654#3655#0" expanded="true" />
+            <element signature="e#3682#3683#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/xu/vediorental/doMain/view/AllFile.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="36" column="16" selection-start-line="36" selection-start-column="16" selection-end-line="36" selection-end-column="16" />
+          <folding>
+            <element signature="e#504#505#0" expanded="true" />
+            <element signature="e#525#526#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/xu/vediorental/util/GetDataUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-107">
+          <caret line="95" column="5" lean-forward="true" selection-start-line="95" selection-start-column="5" selection-end-line="95" selection-end-column="5" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/xu/vediorental/client/AdministratorPage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="8383">
-          <caret line="445" column="39" selection-start-line="445" selection-start-column="39" selection-end-line="445" selection-end-column="39" />
+        <state relative-caret-position="253">
+          <caret line="515" column="36" selection-start-line="515" selection-start-column="36" selection-end-line="515" selection-end-column="36" />
+          <folding>
+            <element signature="e#18262#19976#0" expanded="true" />
+            <element signature="e#19975#19976#0" expanded="true" />
+            <element signature="e#20021#20926#0" expanded="true" />
+            <element signature="e#20925#20926#0" expanded="true" />
+            <element signature="e#20974#22126#0" expanded="true" />
+            <element signature="e#22125#22126#0" expanded="true" />
+            <element signature="e#22170#23435#0" expanded="true" />
+            <element signature="e#23434#23435#0" expanded="true" />
+            <element signature="e#23482#24469#0" expanded="true" />
+            <element signature="e#24468#24469#0" expanded="true" />
+            <element signature="e#24513#25877#0" expanded="true" />
+            <element signature="e#25876#25877#0" expanded="true" />
+            <element signature="e#25918#27440#0" expanded="true" />
+            <element signature="e#27439#27440#0" expanded="true" />
+            <element signature="e#27476#27762#0" expanded="true" />
+            <element signature="e#27761#27762#0" expanded="true" />
+            <element signature="e#27801#29170#0" expanded="true" />
+            <element signature="e#29169#29170#0" expanded="true" />
+            <element signature="e#29212#29382#0" expanded="true" />
+            <element signature="e#29381#29382#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

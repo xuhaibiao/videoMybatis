@@ -109,4 +109,8 @@ public interface ManagerService  {
      * @param amount 金额
      */
     void retrunVedio(String username, String vedioname, long fid, double amount);
+
+    boolean updateVedioName(long id, String newName);
+
+    boolean updateVedioPrice(long id, double newPrice);
 }

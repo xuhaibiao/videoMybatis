@@ -63,7 +63,7 @@ public class GetDataUtil {
     }
 
 
-    //ÁÆ°ÁêÜÂëò
+    //π‹¿Ì‘±
 
     public static Object[][] getVedioData() {
         List<VedioInfo> vedioInfos = managerService.findAllVedioInfo();
@@ -78,27 +78,34 @@ public class GetDataUtil {
     }
 
     public static Object[][] getFileData() {
+        String[] tag = new String[]{"“—≥ˆΩË", "ø’œ–÷–"};
         List<AllFile> allFile = managerService.findAllFile();
         Object[][] fileData = new Object[allFile.size()][4];
         for (int i = 0; i < allFile.size(); i++) {
             fileData[i][0] = allFile.get(i).getId();
             fileData[i][1] = allFile.get(i).getVid();
             fileData[i][2] = allFile.get(i).getName();
-            fileData[i][3] = allFile.get(i).getStatus();
+            if (allFile.get(i).getStatus() == 1) {
+                fileData[i][3] = tag[1];
+            } else {
+                fileData[i][3] = tag[0];
+            }
+
         }
         return fileData;
     }
 
     public static Object[][] getAllUserRecordData() {
         List<RecordInfo> allRecording = managerService.findAllRecording();
-        Object[][] recordingData = new Object[allRecording.size()][6];
+        Object[][] recordingData = new Object[allRecording.size()][7];
         for (int i = 0; i < allRecording.size(); i++) {
             recordingData[i][0] = allRecording.get(i).getId();
             recordingData[i][1] = allRecording.get(i).getUsername();
             recordingData[i][2] = allRecording.get(i).getFid();
             recordingData[i][3] = allRecording.get(i).getLend();
-            recordingData[i][4] = allRecording.get(i).getBack();
-            recordingData[i][5] = allRecording.get(i).getAmount();
+            recordingData[i][4] = allRecording.get(i).getDeposit();
+            recordingData[i][5] = allRecording.get(i).getBack();
+            recordingData[i][6] = allRecording.get(i).getAmount();
         }
         return recordingData;
     }

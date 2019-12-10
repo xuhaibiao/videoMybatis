@@ -126,4 +126,8 @@ public interface VedioDao {
      * @param id 文件id
      */
     void deleteFileById(long id);
+
+    int updateVedioNameById(long id,String newName);
+
+    int updateVedioPriceById(long id,double newPrice);
 }

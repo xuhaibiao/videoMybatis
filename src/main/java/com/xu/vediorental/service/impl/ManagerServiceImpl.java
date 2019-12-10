@@ -116,4 +116,13 @@ public class ManagerServiceImpl extends Common implements ManagerService {
         vedioDao.changeInventoryByName(vedioname, 1);
 
     }
+
+    public boolean updateVedioName(long id, String newName) {
+        return vedioDao.updateVedioNameById(id, newName)==1;
+
+    }
+
+    public boolean updateVedioPrice(long id, double newPrice) {
+        return vedioDao.updateVedioPriceById(id, newPrice)==1;
+    }
 }

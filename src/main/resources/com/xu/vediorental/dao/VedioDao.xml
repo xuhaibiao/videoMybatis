@@ -66,4 +66,12 @@
     <delete id="deleteFileById" parameterType="long">
         delete from fileinfo where id =#{id}
     </delete>
+
+    <update id="updateVedioNameById">
+        update vedioinfo set name = #{param2} where id = #{param1}
+    </update>
+
+    <update id="updateVedioPriceById">
+        update vedioinfo set price = #{param2} where id = #{param1}
+    </update>
 </mapper>

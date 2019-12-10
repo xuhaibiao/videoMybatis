@@ -6,6 +6,7 @@
     <file url="file://$PROJECT_DIR$/src/main/java/com/xu/vediorental/client/LoginPage.java" charset="GBK" />
     <file url="file://$PROJECT_DIR$/src/main/java/com/xu/vediorental/client/SignupPage.java" charset="GBK" />
     <file url="file://$PROJECT_DIR$/src/main/java/com/xu/vediorental/client/UserPage.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/xu/vediorental/util/GetDataUtil.java" charset="GBK" />
     <file url="PROJECT" charset="UTF-8" />
   </component>
 </project>
