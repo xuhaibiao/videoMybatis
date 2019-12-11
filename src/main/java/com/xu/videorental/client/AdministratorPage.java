@@ -781,7 +781,7 @@ public class AdministratorPage extends JFrame {
 				}
 				String videoname = (String) table_returnRecord.getValueAt(index, 0);
 				long fid = Long.valueOf(String.valueOf(table_returnRecord.getValueAt(index, 1))).longValue();
-				double amount = Double.parseDouble(table_returnRecord.getValueAt(index, 3).toString());
+				double amount = Double.parseDouble(table_returnRecord.getValueAt(index, 4).toString());
 				managerService.retrunVideo(username, videoname, fid, amount);
 				//É¾³ýÑ¡ÖÐÐÐ
 				noReturnTableModel.removeRow(index);
