@@ -8,17 +8,17 @@
 
     <!--别名-->
     <typeAliases>
-        <typeAlias type="com.xu.vediorental.doMain.table.VedioInfo" alias="VedioInfo"/>
-        <typeAlias type="com.xu.vediorental.doMain.table.UserInfo" alias="UserInfo"/>
-        <typeAlias type="com.xu.vediorental.doMain.view.VedioRecording" alias="VedioRecording"/>
-        <typeAlias type="com.xu.vediorental.doMain.view.VacantFile" alias="VacantFile"/>
-        <typeAlias type="com.xu.vediorental.doMain.vo.NoReturnInfo" alias="NoReturnInfo"/>
-        <typeAlias type="com.xu.vediorental.doMain.table.RecordInfo" alias="RecordInfo"/>
-        <typeAlias type="com.xu.vediorental.doMain.vo.LendInfo" alias="LendInfo"/>
-        <typeAlias type="com.xu.vediorental.doMain.vo.BackInfo" alias="BackInfo"/>
-        <typeAlias type="com.xu.vediorental.doMain.view.AllFile" alias="AllFile"/>
-        <typeAlias type="com.xu.vediorental.doMain.table.FileInfo" alias="FileInfo"/>
-        <typeAlias type="com.xu.vediorental.doMain.view.UserRentalHistory" alias="UserRentalHistory"/>
+        <typeAlias type="com.xu.videorental.doMain.table.VideoInfo" alias="VideoInfo"/>
+        <typeAlias type="com.xu.videorental.doMain.table.UserInfo" alias="UserInfo"/>
+        <typeAlias type="com.xu.videorental.doMain.view.VideoRecording" alias="VideoRecording"/>
+        <typeAlias type="com.xu.videorental.doMain.view.VacantFile" alias="VacantFile"/>
+        <typeAlias type="com.xu.videorental.doMain.vo.NoReturnInfo" alias="NoReturnInfo"/>
+        <typeAlias type="com.xu.videorental.doMain.table.RecordInfo" alias="RecordInfo"/>
+        <typeAlias type="com.xu.videorental.doMain.vo.LendInfo" alias="LendInfo"/>
+        <typeAlias type="com.xu.videorental.doMain.vo.BackInfo" alias="BackInfo"/>
+        <typeAlias type="com.xu.videorental.doMain.view.AllFile" alias="AllFile"/>
+        <typeAlias type="com.xu.videorental.doMain.table.FileInfo" alias="FileInfo"/>
+        <typeAlias type="com.xu.videorental.doMain.view.UserRentalHistory" alias="UserRentalHistory"/>
 
 
     </typeAliases>
@@ -40,8 +40,8 @@
 
     <!--指定映射配置文件的位置，映射配置文件为每一个dao独立的配置文件-->
     <mappers>
-        <mapper resource="com/xu/vediorental/dao/VedioDao.xml"/>
-        <mapper resource="com/xu/vediorental/dao/UserDao.xml"/>
+        <mapper resource="com/xu/videorental/dao/VideoDao.xml"/>
+        <mapper resource="com/xu/videorental/dao/UserDao.xml"/>
     </mappers>
 
 

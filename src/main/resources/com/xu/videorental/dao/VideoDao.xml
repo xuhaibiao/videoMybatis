@@ -1,0 +1,77 @@
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.xu.videorental.dao.VideoDao">
+
+    <select id="findAllVideoInfo" resultType="VideoInfo">
+      select videoinfo.*,videorecording.inventory from videoinfo,videorecording where videoinfo.name = videorecording.name;
+    </select>
+
+    <select id="findAllVideoRecording" resultType="VideoRecording">
+        select * from videorecording
+    </select>
+
+    <select id="findAllVacantFile" resultType="VacantFile">
+        select * from vacantfile
+    </select>
+
+    <select id="findAllNoReturn" parameterType="string" resultType="NoReturnInfo">
+        select a.name,a.fid,a.lend,(curdate()-a.lend+1)*b.price as amount,a.deposit from userrentalhistory as a,videoinfo as b where a.username=#{username} and a.back is null and a.name=b.name
+    </select>
+
+    <insert id="addRecording" parameterType="LendInfo">
+        insert into recordinfo(username,fid,lend,deposit) values(#{username},#{fid},#{lend},#{deposit})
+    </insert>
+
+    <update id="updateRecording" parameterType="BackInfo">
+        update recordinfo set back = #{back},amount = #{amount} where username = #{username} and fid = #{fid}
+    </update>
+
+    <update id="changeInventoryByName">
+        update videoinfo set inventory = inventory+ #{param2} where name = #{param1}
+    </update>
+
+    <update id="changeInventoryById">
+        update videoinfo set inventory = inventory+ #{param2} where id = #{param1}
+    </update>
+
+    <update id="changeStatus">
+        update fileinfo set status = status+#{param2} where id = #{param1}
+    </update>
+
+    <insert id="addVideo" parameterType="VideoInfo">
+        insert into videoinfo(name,inventory,price) values(#{name},#{inventory},#{price})
+    </insert>
+
+    <select id="findAllFile" resultType="AllFile">
+        select * from allfile
+    </select>
+
+    <insert id="addFile" parameterType="FileInfo">
+        insert into fileinfo(vid,status) values(#{vid},#{status})
+    </insert>
+
+    <select id="findAllRecording" resultType="RecordInfo">
+        select * from recordinfo;
+    </select>
+
+    <select id="findAllRecordingByUsername" parameterType="string" resultType="UserRentalHistory">
+        select u.name,u.fid,u.lend,u.back,u.amount,u.deposit from userrentalhistory u where u.username = #{username}
+    </select>
+
+    <delete id="deleteVideoById" parameterType="long">
+        delete from videoinfo where id =#{id}
+    </delete>
+
+    <delete id="deleteFileById" parameterType="long">
+        delete from fileinfo where id =#{id}
+    </delete>
+
+    <update id="updateVideoNameById">
+        update videoinfo set name = #{param2} where id = #{param1}
+    </update>
+
+    <update id="updateVideoPriceById">
+        update videoinfo set price = #{param2} where id = #{param1}
+    </update>
+</mapper>

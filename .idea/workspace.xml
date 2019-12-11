@@ -2,15 +2,111 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="06da7042-8e2d-4bca-9492-a468c64c000f" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/xu/videorental/test/ManagerServiceTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/5ad5cdcb-4b3f-466e-8954-85d997403f25.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/5ad5cdcb-4b3f-466e-8954-85d997403f25.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/5ad5cdcb-4b3f-466e-8954-85d997403f25/storage_v2/_src_/schema/vediorent.NGnPtg.zip" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/5ad5cdcb-4b3f-466e-8954-85d997403f25/storage_v2/_src_/schema/vediorent.NGnPtg.zip" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/xu/vediorental/client/AdministratorPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/xu/vediorental/client/AdministratorPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/xu/vediorental/dao/VedioDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/xu/vediorental/dao/VedioDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/xu/vediorental/service/ManagerService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/xu/vediorental/service/ManagerService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/xu/vediorental/service/impl/ManagerServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/xu/vediorental/service/impl/ManagerServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/xu/vediorental/util/GetDataUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/xu/vediorental/util/GetDataUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/xu/vediorental/dao/VedioDao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/xu/vediorental/dao/VedioDao.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/xu/vediorental/util/GetDataUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/xu/vediorental/util/GetDataUtil.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/xu/vediorental/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/xu/videorental/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/xu/vediorental/client/AdministratorPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/xu/videorental/client/AdministratorPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/xu/vediorental/client/IndexPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/xu/videorental/client/IndexPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/xu/vediorental/client/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/xu/videorental/client/LoginPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/xu/vediorental/client/SignupPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/xu/videorental/client/SignupPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/xu/vediorental/client/UserPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/xu/videorental/client/UserPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/xu/vediorental/dao/UserDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/xu/videorental/dao/UserDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/xu/vediorental/dao/VedioDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/xu/videorental/dao/VideoDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/xu/vediorental/doMain/table/FileInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/xu/videorental/doMain/table/FileInfo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/xu/vediorental/doMain/table/RecordInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/xu/videorental/doMain/table/RecordInfo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/xu/vediorental/doMain/table/UserInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/xu/videorental/doMain/table/UserInfo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/xu/vediorental/doMain/table/VedioInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/xu/videorental/doMain/table/VideoInfo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/xu/vediorental/doMain/view/AllFile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/xu/videorental/doMain/view/AllFile.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/xu/vediorental/doMain/view/UserRentalHistory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/xu/videorental/doMain/view/UserRentalHistory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/xu/vediorental/doMain/view/VacantFile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/xu/videorental/doMain/view/VacantFile.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/xu/vediorental/doMain/view/VedioRecording.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/xu/videorental/doMain/view/VideoRecording.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/xu/vediorental/doMain/vo/BackInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/xu/videorental/doMain/vo/BackInfo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/xu/vediorental/doMain/vo/LendInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/xu/videorental/doMain/vo/LendInfo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/xu/vediorental/doMain/vo/NoReturnInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/xu/videorental/doMain/vo/NoReturnInfo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/xu/vediorental/service/ManagerService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/xu/videorental/service/ManagerService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/xu/vediorental/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/xu/videorental/service/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/xu/vediorental/service/impl/Common.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/xu/videorental/service/impl/Common.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/xu/vediorental/service/impl/ManagerServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/xu/videorental/service/impl/ManagerServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/xu/vediorental/service/impl/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/xu/videorental/service/impl/UserServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/xu/vediorental/util/GetDaoUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/xu/videorental/util/GetDaoUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/xu/vediorental/util/GetDataUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/xu/videorental/util/GetDataUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/xu/vediorental/util/GuiUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/xu/videorental/util/GuiUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/SqlMapConfig.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/SqlMapConfig.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/xu/vediorental/dao/UserDao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/xu/videorental/dao/UserDao.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/xu/vediorental/dao/VedioDao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/xu/videorental/dao/VideoDao.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/xu/vediorental/test/ManagerServiceTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/xu/vediorental/test/UserServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/xu/videorental/test/UserServiceTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/xu/vediorental/test/VedioDaoTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/SqlMapConfig.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/SqlMapConfig.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/xu/vediorental/Main$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/xu/vediorental/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/xu/vediorental/client/AdministratorPage$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/xu/vediorental/client/AdministratorPage$10.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/xu/vediorental/client/AdministratorPage$11.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/xu/vediorental/client/AdministratorPage$12.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/xu/vediorental/client/AdministratorPage$13.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/xu/vediorental/client/AdministratorPage$14.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/xu/vediorental/client/AdministratorPage$15.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/xu/vediorental/client/AdministratorPage$16.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/xu/vediorental/client/AdministratorPage$17.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/xu/vediorental/client/AdministratorPage$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/xu/vediorental/client/AdministratorPage$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/xu/vediorental/client/AdministratorPage$4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/xu/vediorental/client/AdministratorPage$5.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/xu/vediorental/client/AdministratorPage$6.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/xu/vediorental/client/AdministratorPage$7.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/xu/vediorental/client/AdministratorPage$8.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/xu/vediorental/client/AdministratorPage$9.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/xu/vediorental/client/AdministratorPage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/xu/vediorental/client/IndexPage$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/xu/vediorental/client/IndexPage$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/xu/vediorental/client/IndexPage$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/xu/vediorental/client/IndexPage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/xu/vediorental/client/LoginPage$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/xu/vediorental/client/LoginPage$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/xu/vediorental/client/LoginPage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/xu/vediorental/client/SignupPage$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/xu/vediorental/client/SignupPage$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/xu/vediorental/client/SignupPage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/xu/vediorental/client/UserPage$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/xu/vediorental/client/UserPage$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/xu/vediorental/client/UserPage$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/xu/vediorental/client/UserPage$4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/xu/vediorental/client/UserPage$5.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/xu/vediorental/client/UserPage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/xu/vediorental/dao/UserDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/xu/vediorental/dao/UserDao.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/xu/vediorental/dao/VedioDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/xu/vediorental/dao/VedioDao.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/xu/vediorental/doMain/table/FileInfo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/xu/vediorental/doMain/table/RecordInfo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/xu/vediorental/doMain/table/UserInfo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/xu/vediorental/doMain/table/VedioInfo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/xu/vediorental/doMain/view/AllFile.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/xu/vediorental/doMain/view/UserRentalHistory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/xu/vediorental/doMain/view/VacantFile.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/xu/vediorental/doMain/view/VedioRecording.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/xu/vediorental/doMain/vo/BackInfo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/xu/vediorental/doMain/vo/LendInfo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/xu/vediorental/doMain/vo/NoReturnInfo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/xu/vediorental/service/ManagerService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/xu/vediorental/service/UserService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/xu/vediorental/service/impl/Common.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/xu/vediorental/service/impl/ManagerServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/xu/vediorental/service/impl/UserServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/xu/vediorental/util/GetDaoUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/xu/vediorental/util/GetDataUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/xu/vediorental/util/GuiUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/xu/vediorental/test/ManagerServiceTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/xu/vediorental/test/UserServiceTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/xu/vediorental/test/VedioDaoTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vedioMybatis.iml" beforeDir="false" afterPath="$PROJECT_DIR$/videoMybatis.iml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -39,71 +135,93 @@
     <option name="HIDDEN_KINDS">
       <set />
     </option>
-    <expand>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="vediorent@localhost" type="feb32156:DbDataSourceImpl" />
-      </path>
-    </expand>
+    <expand />
     <select />
   </component>
   <component name="FUSProjectUsageTrigger">
     <session id="-732948596">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="12" />
+          <entry key="project.closed" value="15" />
           <entry key="project.open.time.111" value="1" />
           <entry key="project.open.time.12" value="1" />
+          <entry key="project.open.time.13" value="1" />
           <entry key="project.open.time.184" value="1" />
           <entry key="project.open.time.32" value="1" />
+          <entry key="project.open.time.37" value="1" />
           <entry key="project.open.time.39" value="1" />
           <entry key="project.open.time.4" value="1" />
           <entry key="project.open.time.41" value="1" />
           <entry key="project.open.time.46" value="1" />
           <entry key="project.open.time.47" value="2" />
+          <entry key="project.open.time.56" value="1" />
           <entry key="project.open.time.6" value="1" />
           <entry key="project.open.time.64" value="1" />
           <entry key="project.open.time.66" value="1" />
-          <entry key="project.opened" value="13" />
+          <entry key="project.opened" value="16" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="334" />
-          <entry key="properties" value="5" />
+          <entry key="iml" value="1" />
+          <entry key="java" value="357" />
+          <entry key="properties" value="6" />
           <entry key="sql" value="1" />
           <entry key="userinfo" value="1" />
           <entry key="vacantfile" value="2" />
           <entry key="vedioinfo" value="1" />
-          <entry key="xml" value="48" />
+          <entry key="xml" value="52" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="Database Element" value="4" />
-          <entry key="JAVA" value="334" />
-          <entry key="Properties" value="5" />
+          <entry key="IDEA_MODULE" value="1" />
+          <entry key="JAVA" value="357" />
+          <entry key="Properties" value="6" />
           <entry key="Scratch" value="1" />
-          <entry key="XML" value="48" />
+          <entry key="XML" value="52" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="cell" value="18" />
-          <entry key="java" value="12078" />
-          <entry key="properties" value="9" />
-          <entry key="txt" value="51" />
-          <entry key="xml" value="1727" />
+          <entry key="java" value="12181" />
+          <entry key="properties" value="13" />
+          <entry key="txt" value="66" />
+          <entry key="xml" value="1740" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="12078" />
-          <entry key="PLAIN_TEXT" value="51" />
-          <entry key="Properties" value="9" />
+          <entry key="JAVA" value="12181" />
+          <entry key="PLAIN_TEXT" value="66" />
+          <entry key="Properties" value="13" />
           <entry key="SQL" value="14" />
           <entry key="Scratch" value="18" />
-          <entry key="XML" value="1713" />
+          <entry key="XML" value="1726" />
+        </counts>
+      </usages-collector>
+    </session>
+    <session id="-65745058">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.open.time.1" value="1" />
+          <entry key="project.opened" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="iml" value="1" />
+          <entry key="md" value="1" />
+          <entry key="xml" value="2" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="IDEA_MODULE" value="1" />
+          <entry key="Markdown" value="1" />
+          <entry key="XML" value="2" />
         </counts>
       </usages-collector>
     </session>
@@ -111,94 +229,84 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/xu/vediorental/service/impl/ManagerServiceImpl.java">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/SqlMapConfig.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="296">
-              <caret line="125" column="62" lean-forward="true" selection-start-line="125" selection-start-column="62" selection-end-line="125" selection-end-column="62" />
+            <state relative-caret-position="24">
+              <caret line="12" column="80" selection-start-line="12" selection-start-column="80" selection-end-line="12" selection-end-column="80" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/com/xu/videorental/dao/UserDao.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="480">
+              <caret line="20" column="9" selection-start-line="20" selection-start-column="9" selection-end-line="20" selection-end-column="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/xu/videorental/service/impl/UserServiceImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="240">
+              <caret line="18" selection-start-line="18" selection-end-line="18" />
               <folding>
-                <element signature="e#3654#3655#0" expanded="true" />
-                <element signature="e#3682#3683#0" expanded="true" />
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/xu/vediorental/doMain/vo/NoReturnInfo.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/xu/videorental/util/GetDaoUtil.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="288">
-              <caret line="12" column="25" selection-start-line="12" selection-start-column="25" selection-end-line="12" selection-end-column="25" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/xu/vediorental/util/GetDataUtil.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-107">
-              <caret line="95" column="5" lean-forward="true" selection-start-line="95" selection-start-column="5" selection-end-line="95" selection-end-column="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/xu/vediorental/doMain/view/AllFile.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="72">
-              <caret line="36" column="16" selection-start-line="36" selection-start-column="16" selection-end-line="36" selection-end-column="16" />
+            <state relative-caret-position="552">
+              <caret line="35" selection-start-line="35" selection-end-line="35" />
               <folding>
-                <element signature="e#504#505#0" expanded="true" />
-                <element signature="e#525#526#0" expanded="true" />
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/xu/videorental/Main.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="168">
+              <caret line="10" column="3" lean-forward="true" selection-start-line="10" selection-start-column="3" selection-end-line="10" selection-end-column="3" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/videoMybatis.iml">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/xu/vediorental/client/AdministratorPage.java">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="253">
-              <caret line="515" column="36" selection-start-line="515" selection-start-column="36" selection-end-line="515" selection-end-column="36" />
-              <folding>
-                <element signature="e#18262#19976#0" expanded="true" />
-                <element signature="e#19975#19976#0" expanded="true" />
-                <element signature="e#20021#20926#0" expanded="true" />
-                <element signature="e#20925#20926#0" expanded="true" />
-                <element signature="e#20974#22126#0" expanded="true" />
-                <element signature="e#22125#22126#0" expanded="true" />
-                <element signature="e#22170#23435#0" expanded="true" />
-                <element signature="e#23434#23435#0" expanded="true" />
-                <element signature="e#23482#24469#0" expanded="true" />
-                <element signature="e#24468#24469#0" expanded="true" />
-                <element signature="e#24513#25877#0" expanded="true" />
-                <element signature="e#25876#25877#0" expanded="true" />
-                <element signature="e#25918#27440#0" expanded="true" />
-                <element signature="e#27439#27440#0" expanded="true" />
-                <element signature="e#27476#27762#0" expanded="true" />
-                <element signature="e#27761#27762#0" expanded="true" />
-                <element signature="e#27801#29170#0" expanded="true" />
-                <element signature="e#29169#29170#0" expanded="true" />
-                <element signature="e#29212#29382#0" expanded="true" />
-                <element signature="e#29381#29382#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="744">
+              <caret line="31" lean-forward="true" selection-start-line="31" selection-end-line="31" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/xu/vediorental/service/ManagerService.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/xu/videorental/test/ManagerServiceTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="320">
-              <caret line="114" column="55" selection-start-line="114" selection-start-column="55" selection-end-line="114" selection-end-column="55" />
+            <state relative-caret-position="48">
+              <caret line="2" column="49" selection-start-line="2" selection-start-column="49" selection-end-line="2" selection-end-column="49" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/xu/vediorental/doMain/table/VedioInfo.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/xu/videorental/test/UserServiceTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="192">
-              <caret line="8" column="18" selection-start-line="8" selection-start-column="12" selection-end-line="8" selection-end-column="18" />
+            <state relative-caret-position="984">
+              <caret line="49" selection-start-line="49" selection-end-line="49" />
             </state>
           </provider>
         </entry>
@@ -216,9 +324,17 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>出借情况(0:已租借 1:未租借)</find>
+      <find>租金</find>
+      <find>vedio</find>
+      <find>video</find>
+      <find>videoInfo</find>
     </findStrings>
     <replaceStrings>
       <replace>出借情况</replace>
+      <replace>结算金额</replace>
+      <replace>video</replace>
+      <replace>Video</replace>
+      <replace>VideoInfo</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -240,25 +356,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/com/xu/doMain/NoReturnInfo.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/xu/doMain/LendInfo.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/xu/doMain/RecordInfo.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/xu/doMain/Allfile.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/xu/doMain/AllFile.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/xu/doMain/Fileinfo.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/xu/doMain/FileInfo.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/xu/doMain/UserRentalHistory.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/xu/service/UserService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/xu/doMain/BackInfo.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/xu/util/GetNoReturnData.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/xu/util/GetRecordData.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/xu/doMain/VedioInfoVo.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/xu/doMain/VedioInfo.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/com/xu/dao/UserDao.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/com/xu/service/impl/Common.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/xu/util/GetDataUtil.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/xu/util/GuiUtil.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/xu/service/impl/ManagerServiceImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/xu/service/ManagerService.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/xu/dao/UserDao.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/xu/dao/VedioDao.java" />
@@ -274,7 +371,6 @@
         <option value="$PROJECT_DIR$/src/main/java/com/xu/client/SignupPage.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/xu/client/UserPage.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/xu/vediorental/doMain/table/FileInfo.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/SqlMapConfig.xml" />
         <option value="$PROJECT_DIR$/src/main/resources/com/xu/vediorental/dao/UserDao.xml" />
         <option value="$PROJECT_DIR$/src/test/java/com/xu/vediorental/test/UserServiceTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/xu/vediorental/service/UserService.java" />
@@ -284,13 +380,33 @@
         <option value="$PROJECT_DIR$/src/main/java/com/xu/vediorental/doMain/table/RecordInfo.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/xu/vediorental/doMain/vo/LendInfo.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/xu/vediorental/doMain/vo/NoReturnInfo.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/xu/vediorental/client/UserPage.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/xu/vediorental/service/ManagerService.java" />
         <option value="$PROJECT_DIR$/src/main/resources/com/xu/vediorental/dao/VedioDao.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/xu/vediorental/dao/VedioDao.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/xu/vediorental/service/impl/ManagerServiceImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/xu/vediorental/util/GetDataUtil.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/xu/vediorental/client/UserPage.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/xu/vediorental/client/IndexPage.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/xu/vediorental/client/AdministratorPage.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/xu/videorental/doMain/view/VedioRecording.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/xu/videorental/doMain/view/VideoRecording.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/xu/videorental/doMain/table/VideoInfo.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/xu/videorental/service/ManagerService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/xu/videorental/service/UserService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/xu/videorental/dao/VedioDao.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/xu/videorental/util/GetDaoUtil.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/xu/videorental/dao/VideoDao.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/xu/videorental/service/impl/ManagerServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/xu/videorental/service/impl/UserServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/xu/videorental/util/GetDataUtil.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/xu/videorental/client/AdministratorPage.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/xu/videorental/client/IndexPage.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/xu/videorental/test/VedioDaoTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/xu/videorental/test/ManagerServiceTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/xu/videorental/test/VideoDaoTest.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/jdbcConfig.properties" />
+        <option value="$PROJECT_DIR$/src/main/resources/SqlMapConfig.xml" />
+        <option value="$PROJECT_DIR$/src/main/resources/com/xu/videorental/dao/VedioDao.xml" />
       </list>
     </option>
   </component>
@@ -336,220 +452,73 @@
     </navigator>
     <panes>
       <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="vedioMybatis" type="b2602c69:ProjectViewProjectNode" />
-              <item name="vedioMybatis" type="462c0819:PsiDirectoryNode" />
+              <item name="videoMybatis" type="b2602c69:ProjectViewProjectNode" />
+              <item name="videoMybatis" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="vedioMybatis" type="b2602c69:ProjectViewProjectNode" />
-              <item name="vedioMybatis" type="462c0819:PsiDirectoryNode" />
+              <item name="videoMybatis" type="b2602c69:ProjectViewProjectNode" />
+              <item name="videoMybatis" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="vedioMybatis" type="b2602c69:ProjectViewProjectNode" />
-              <item name="vedioMybatis" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="vedioMybatis" type="b2602c69:ProjectViewProjectNode" />
-              <item name="vedioMybatis" type="462c0819:PsiDirectoryNode" />
+              <item name="videoMybatis" type="b2602c69:ProjectViewProjectNode" />
+              <item name="videoMybatis" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="vedioMybatis" type="b2602c69:ProjectViewProjectNode" />
-              <item name="vedioMybatis" type="462c0819:PsiDirectoryNode" />
+              <item name="videoMybatis" type="b2602c69:ProjectViewProjectNode" />
+              <item name="videoMybatis" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="vedioMybatis" type="b2602c69:ProjectViewProjectNode" />
-              <item name="vedioMybatis" type="462c0819:PsiDirectoryNode" />
+              <item name="videoMybatis" type="b2602c69:ProjectViewProjectNode" />
+              <item name="videoMybatis" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="xu" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="vedioMybatis" type="b2602c69:ProjectViewProjectNode" />
-              <item name="vedioMybatis" type="462c0819:PsiDirectoryNode" />
+              <item name="videoMybatis" type="b2602c69:ProjectViewProjectNode" />
+              <item name="videoMybatis" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="xu" type="462c0819:PsiDirectoryNode" />
-              <item name="vediorental" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="vedioMybatis" type="b2602c69:ProjectViewProjectNode" />
-              <item name="vedioMybatis" type="462c0819:PsiDirectoryNode" />
+              <item name="videoMybatis" type="b2602c69:ProjectViewProjectNode" />
+              <item name="videoMybatis" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="xu" type="462c0819:PsiDirectoryNode" />
-              <item name="vediorental" type="462c0819:PsiDirectoryNode" />
-              <item name="client" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="vedioMybatis" type="b2602c69:ProjectViewProjectNode" />
-              <item name="vedioMybatis" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="xu" type="462c0819:PsiDirectoryNode" />
-              <item name="vediorental" type="462c0819:PsiDirectoryNode" />
-              <item name="dao" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="vedioMybatis" type="b2602c69:ProjectViewProjectNode" />
-              <item name="vedioMybatis" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="xu" type="462c0819:PsiDirectoryNode" />
-              <item name="vediorental" type="462c0819:PsiDirectoryNode" />
-              <item name="doMain" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="vedioMybatis" type="b2602c69:ProjectViewProjectNode" />
-              <item name="vedioMybatis" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="xu" type="462c0819:PsiDirectoryNode" />
-              <item name="vediorental" type="462c0819:PsiDirectoryNode" />
-              <item name="doMain" type="462c0819:PsiDirectoryNode" />
-              <item name="table" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="vedioMybatis" type="b2602c69:ProjectViewProjectNode" />
-              <item name="vedioMybatis" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="xu" type="462c0819:PsiDirectoryNode" />
-              <item name="vediorental" type="462c0819:PsiDirectoryNode" />
-              <item name="doMain" type="462c0819:PsiDirectoryNode" />
-              <item name="view" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="vedioMybatis" type="b2602c69:ProjectViewProjectNode" />
-              <item name="vedioMybatis" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="xu" type="462c0819:PsiDirectoryNode" />
-              <item name="vediorental" type="462c0819:PsiDirectoryNode" />
-              <item name="doMain" type="462c0819:PsiDirectoryNode" />
-              <item name="vo" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="vedioMybatis" type="b2602c69:ProjectViewProjectNode" />
-              <item name="vedioMybatis" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="xu" type="462c0819:PsiDirectoryNode" />
-              <item name="vediorental" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="vedioMybatis" type="b2602c69:ProjectViewProjectNode" />
-              <item name="vedioMybatis" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="xu" type="462c0819:PsiDirectoryNode" />
-              <item name="vediorental" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-              <item name="impl" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="vedioMybatis" type="b2602c69:ProjectViewProjectNode" />
-              <item name="vedioMybatis" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="xu" type="462c0819:PsiDirectoryNode" />
-              <item name="vediorental" type="462c0819:PsiDirectoryNode" />
-              <item name="util" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="vedioMybatis" type="b2602c69:ProjectViewProjectNode" />
-              <item name="vedioMybatis" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="vedioMybatis" type="b2602c69:ProjectViewProjectNode" />
-              <item name="vedioMybatis" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="vedioMybatis" type="b2602c69:ProjectViewProjectNode" />
-              <item name="vedioMybatis" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="xu" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="vedioMybatis" type="b2602c69:ProjectViewProjectNode" />
-              <item name="vedioMybatis" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="xu" type="462c0819:PsiDirectoryNode" />
-              <item name="vediorental" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="vedioMybatis" type="b2602c69:ProjectViewProjectNode" />
-              <item name="vedioMybatis" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="xu" type="462c0819:PsiDirectoryNode" />
-              <item name="vediorental" type="462c0819:PsiDirectoryNode" />
-              <item name="dao" type="462c0819:PsiDirectoryNode" />
+              <item name="videorental" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="DatabaseDriversLRU" value="mysql" />
+    <property name="SearchEverywhereHistoryKey" value="videoHead&#9;ACTION&#9;null" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1575903654619" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1576053186668" />
     <property name="database.console.LAST_STATE" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Compiling" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Libraries" />
@@ -558,9 +527,6 @@
     <property name="settings.editor.selected.configurable" value="File.Encoding" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="E:\Java_in_idea\vedioMybatis\src\main\resources\com\xu\vediorental" />
-    </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="com.xu.vediorental" />
       <recent name="com.xu.vedio" />
@@ -571,6 +537,9 @@
       <recent name="E:\Java_in_idea\vedioMybatis\src\test\java\com\xu\test" />
       <recent name="E:\Java_in_idea\vedioMybatis\src\main\java\com\xu\dao" />
       <recent name="E:\Java_in_idea\vedioMybatis\src\main\java\com\xu\doMain" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\Java_in_idea\vedioMybatis\src\main\resources\com\xu\vediorental" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -585,52 +554,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.AdministratorPage">
-    <configuration name="AdministratorPage" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.xu.vediorental.client.AdministratorPage" />
-      <module name="vedioMybatis" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.xu.vediorental.client.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="IndexPage" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.xu.vediorental.client.IndexPage" />
-      <module name="vedioMybatis" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.xu.vediorental.client.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="LoginPage" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.xu.vediorental.client.LoginPage" />
-      <module name="vedioMybatis" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.xu.vediorental.client.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.xu.vediorental.Main" />
-      <module name="vedioMybatis" />
+      <option name="MAIN_CLASS_NAME" value="com.xu.videorental.Main" />
+      <module name="video" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.xu.vediorental.*" />
+          <option name="PATTERN" value="com.xu.videorental.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -638,33 +568,56 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UserPage" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.xu.vediorental.client.UserPage" />
-      <module name="vedioMybatis" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.xu.vediorental.client.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
+    <configuration default="true" type="JetRunConfigurationType" factoryName="Kotlin">
+      <module name="videoMybatis" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <list>
-      <item itemvalue="Application.LoginPage" />
-      <item itemvalue="Application.AdministratorPage" />
-      <item itemvalue="Application.UserPage" />
-      <item itemvalue="Application.Main" />
-      <item itemvalue="Application.IndexPage" />
-    </list>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType" factoryName="Kotlin script">
+      <module name="videoMybatis" />
+      <option name="filePath" />
+      <option name="vmParameters" />
+      <option name="alternativeJrePath" />
+      <option name="programParameters" />
+      <option name="passParentEnvs" value="true" />
+      <option name="workingDirectory" />
+      <option name="isAlternativeJrePathEnabled" value="false" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="filePath" />
+      <option name="vmParameters" />
+      <option name="alternativeJrePath" />
+      <option name="programParameters" />
+      <option name="passParentEnvs" value="true" />
+      <option name="workingDirectory" />
+      <option name="isAlternativeJrePathEnabled" value="false" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.AdministratorPage" />
-        <item itemvalue="Application.UserPage" />
         <item itemvalue="Application.Main" />
-        <item itemvalue="Application.IndexPage" />
-        <item itemvalue="Application.LoginPage" />
       </list>
     </recent_temporary>
   </component>
@@ -690,7 +643,11 @@
       <workItem from="1575537152103" duration="1806000" />
       <workItem from="1575887342394" duration="636000" />
       <workItem from="1575899774147" duration="3899000" />
-      <workItem from="1575944001546" duration="5722000" />
+      <workItem from="1575944001546" duration="6749000" />
+      <workItem from="1575961187990" duration="2084000" />
+      <workItem from="1575971877388" duration="289000" />
+      <workItem from="1576044241550" duration="6763000" />
+      <workItem from="1576052826215" duration="282000" />
     </task>
     <task id="LOCAL-00001" summary="1.0">
       <created>1575537520569</created>
@@ -706,7 +663,21 @@
       <option name="project" value="LOCAL" />
       <updated>1575903651085</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="增添押金项和修改录像功能">
+      <created>1575949787596</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1575949787596</updated>
+    </task>
+    <task id="LOCAL-00004" summary="增添押金项和修改录像功能">
+      <created>1575949948219</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1575949948219</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -742,7 +713,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="102990000" />
+    <option name="totallyTimeSpent" value="113435000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -755,8 +726,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4989154" visible="true" weight="0.26354083" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4989154" visible="true" weight="0.3177041" />
       <window_info id="Structure" order="1" sideWeight="0.5010846" side_tool="true" weight="0.26332623" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -774,14 +746,14 @@
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.32899022" />
       <window_info anchor="bottom" id="Database Changes" order="9" weight="0.32899022" />
       <window_info anchor="bottom" id="Terminal" order="10" weight="0.32899022" />
-      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" weight="0.32899022" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" weight="0.32740214" />
       <window_info anchor="bottom" id="Messages" order="12" weight="0.32562277" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" sideWeight="0.4989154" weight="0.24946696" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.2497979" />
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
-      <window_info anchor="right" id="Database" order="5" weight="0.32942432" />
+      <window_info anchor="right" id="Database" order="5" weight="0.32902184" />
       <window_info anchor="right" id="Theme Preview" order="6" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info anchor="right" id="Maven Projects" order="8" sideWeight="0.4989154" weight="0.32942432" />
@@ -797,22 +769,14 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="1.0" />
     <MESSAGE value="增加押金项" />
-    <option name="LAST_COMMIT_MESSAGE" value="增加押金项" />
+    <MESSAGE value="增添押金项和修改录像功能" />
+    <option name="LAST_COMMIT_MESSAGE" value="增添押金项和修改录像功能" />
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/xu/dao/IUserDao.java" />
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="9" column="12" selection-start-line="9" selection-start-column="12" selection-end-line="9" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/com/xu/dao/IAccountDao.xml" />
     <entry file="file://$PROJECT_DIR$/src/test/java/com/xu/test/MybatisTest.java" />
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_181/src.zip!/java/lang/String.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -831,13 +795,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="das://5ad5cdcb-4b3f-466e-8954-85d997403f25/schema/vediorent/table/vedioinfo">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="das://5ad5cdcb-4b3f-466e-8954-85d997403f25/schema/vediorent/table/vedioinfo" />
     <entry file="file://$PROJECT_DIR$/src/main/java/com/xu/service/base.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/com/xu/service/base/Common.java" />
     <entry file="das://5ad5cdcb-4b3f-466e-8954-85d997403f25/schema/vediorent/view/vacantfile">
@@ -850,36 +808,15 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/com/xu/util/GetNoReturnData.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/com/xu/doMain/VedioInfoVo.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/com/xu/doMain/vo.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/xu/vediorental/doMain/table/UserInfo.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/xu/videorental/doMain/table/UserInfo.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="72">
           <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/xu/vediorental/doMain/view/VedioRecording.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/xu/vediorental/test/VedioDaoTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="704">
-          <caret line="35" lean-forward="true" selection-start-line="35" selection-end-line="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/xu/vediorental/test/ManagerServiceTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="320">
-          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/xu/doMain/Fileinfo.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/xu/vediorental/doMain/table/FileInfo.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/xu/videorental/doMain/table/FileInfo.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="144">
           <caret line="6" column="19" selection-start-line="6" selection-start-column="19" selection-end-line="6" selection-end-column="19" />
@@ -889,38 +826,163 @@
     <entry file="file://$PROJECT_DIR$/src/main/resources/log4j.properties">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/xu/vediorental/util/GuiUtil.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/xu/videorental/util/GuiUtil.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="480">
           <caret line="20" column="5" lean-forward="true" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/xu/vediorental/Main.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/xu/videorental/doMain/vo/BackInfo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="22" column="11" lean-forward="true" selection-start-line="13" selection-start-column="7" selection-end-line="22" selection-end-column="11" />
+        <state relative-caret-position="216">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/xu/vediorental/test/UserServiceTest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/xu/videorental/doMain/vo/LendInfo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="680">
-          <caret line="49" selection-start-line="49" selection-end-line="49" />
+        <state relative-caret-position="504">
+          <caret line="21" column="5" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/com/xu/vediorental/dao/UserDao.xml">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/xu/videorental/doMain/view/VacantFile.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="20" column="9" selection-start-line="20" selection-start-column="9" selection-end-line="20" selection-end-column="9" />
+        <state relative-caret-position="72">
+          <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/xu/vediorental/client/SignupPage.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/xu/videorental/doMain/table/RecordInfo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="823">
+        <state relative-caret-position="240">
+          <caret line="14" column="19" lean-forward="true" selection-start-line="14" selection-start-column="19" selection-end-line="14" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/xu/videorental/doMain/view/UserRentalHistory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="504">
+          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/xu/videorental/doMain/vo/NoReturnInfo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="12" column="25" selection-start-line="12" selection-start-column="25" selection-end-line="12" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/xu/videorental/doMain/view/AllFile.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="576">
+          <caret line="36" column="16" selection-start-line="36" selection-start-column="16" selection-end-line="36" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vedioMybatis.iml" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/xu/videorental/doMain/view/VideoRecording.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/xu/videorental/doMain/table/VideoInfo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="5" column="20" lean-forward="true" selection-start-line="5" selection-start-column="20" selection-end-line="5" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/xu/videorental/service/ManagerService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-560">
+          <caret line="74" column="16" selection-start-line="74" selection-start-column="16" selection-end-line="74" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/xu/videorental/service/UserService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="56">
+          <caret line="35" column="21" lean-forward="true" selection-start-line="35" selection-start-column="21" selection-end-line="35" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/xu/videorental/service/impl/ManagerServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="3" column="39" selection-start-line="3" selection-start-column="39" selection-end-line="3" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/xu/videorental/service/impl/Common.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/xu/videorental/dao/UserDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-113">
+          <caret line="16" column="22" selection-start-line="16" selection-start-column="22" selection-end-line="16" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/xu/videorental/util/GetDataUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-600">
+          <caret line="2" column="8" selection-start-line="2" selection-start-column="8" selection-end-line="2" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/xu/videorental/client/AdministratorPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="793" column="19" selection-start-line="793" selection-start-column="19" selection-end-line="793" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/xu/videorental/client/IndexPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="67" column="51" selection-start-line="67" selection-start-column="51" selection-end-line="67" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/xu/videorental/client/LoginPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="24">
+          <caret line="59" column="40" selection-start-line="59" selection-start-column="40" selection-end-line="59" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/xu/videorental/client/SignupPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="488">
           <caret line="93" selection-start-line="93" selection-end-line="93" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/xu/videorental/client/UserPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="416">
+          <caret line="152" column="27" selection-start-line="152" selection-start-column="27" selection-end-line="152" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/xu/videorental/test/VideoDaoTest.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/resources/com/xu/videorental/dao/VedioDao.xml" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/xu/videorental/dao/VideoDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="576">
+          <caret line="35" column="33" selection-start-line="35" selection-start-column="33" selection-end-line="35" selection-end-column="33" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -931,198 +993,78 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/SqlMapConfig.xml">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/com/xu/videorental/dao/UserDao.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="984">
-          <caret line="41" column="13" lean-forward="true" selection-start-line="41" selection-start-column="13" selection-end-line="41" selection-end-column="13" />
+        <state relative-caret-position="480">
+          <caret line="20" column="9" selection-start-line="20" selection-start-column="9" selection-end-line="20" selection-end-column="9" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/xu/vediorental/doMain/vo/BackInfo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/xu/vediorental/doMain/vo/LendInfo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="504">
-          <caret line="21" column="5" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/xu/vediorental/service/impl/Common.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="15" selection-start-line="15" selection-end-line="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/xu/vediorental/dao/UserDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="16" column="22" selection-start-line="16" selection-start-column="22" selection-end-line="16" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/xu/vediorental/doMain/view/VacantFile.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/xu/vediorental/doMain/table/RecordInfo.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/xu/videorental/service/impl/UserServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
-          <caret line="14" column="19" lean-forward="true" selection-start-line="14" selection-start-column="19" selection-end-line="14" selection-end-column="19" />
+          <caret line="18" selection-start-line="18" selection-end-line="18" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/xu/vediorental/doMain/view/UserRentalHistory.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/xu/videorental/util/GetDaoUtil.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="504">
-          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
+        <state relative-caret-position="552">
+          <caret line="35" selection-start-line="35" selection-end-line="35" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/xu/vediorental/client/IndexPage.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/xu/videorental/test/ManagerServiceTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="847">
-          <caret line="62" selection-start-line="62" selection-end-line="62" />
+        <state relative-caret-position="48">
+          <caret line="2" column="49" selection-start-line="2" selection-start-column="49" selection-end-line="2" selection-end-column="49" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/xu/vediorental/client/LoginPage.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/xu/videorental/test/UserServiceTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="984">
+          <caret line="49" selection-start-line="49" selection-end-line="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/SqlMapConfig.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="24">
-          <caret line="59" column="40" selection-start-line="59" selection-start-column="40" selection-end-line="59" selection-end-column="40" />
+          <caret line="12" column="80" selection-start-line="12" selection-start-column="80" selection-end-line="12" selection-end-column="80" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/xu/vediorental/client/UserPage.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/xu/videorental/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3240">
-          <caret line="151" column="51" selection-start-line="151" selection-start-column="51" selection-end-line="151" selection-end-column="51" />
+        <state relative-caret-position="168">
+          <caret line="10" column="3" lean-forward="true" selection-start-line="10" selection-start-column="3" selection-end-line="10" selection-end-column="3" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/xu/vediorental/util/GetDaoUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="864">
-          <caret line="44" column="51" selection-start-line="44" selection-start-column="51" selection-end-line="44" selection-end-column="51" />
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="120">
+            <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/xu/vediorental/doMain/table/VedioInfo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="8" column="18" selection-start-line="8" selection-start-column="12" selection-end-line="8" selection-end-column="18" />
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/videoMybatis.iml">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/xu/vediorental/service/ManagerService.java">
+    <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="320">
-          <caret line="114" column="55" selection-start-line="114" selection-start-column="55" selection-end-line="114" selection-end-column="55" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/xu/vediorental/doMain/vo/NoReturnInfo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="12" column="25" selection-start-line="12" selection-start-column="25" selection-end-line="12" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/com/xu/vediorental/dao/VedioDao.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="426">
-          <caret line="75" column="13" lean-forward="true" selection-start-line="75" selection-start-column="13" selection-end-line="75" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/xu/vediorental/dao/VedioDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="368">
-          <caret line="133" lean-forward="true" selection-start-line="133" selection-end-line="133" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/xu/vediorental/service/impl/UserServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="32" column="30" selection-start-line="32" selection-start-column="30" selection-end-line="32" selection-end-column="30" />
-          <folding>
-            <element signature="e#1010#1011#0" expanded="true" />
-            <element signature="e#1067#1068#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/xu/vediorental/service/UserService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="415">
-          <caret line="49" column="31" selection-start-line="49" selection-start-column="31" selection-end-line="49" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/xu/vediorental/service/impl/ManagerServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="296">
-          <caret line="125" column="62" lean-forward="true" selection-start-line="125" selection-start-column="62" selection-end-line="125" selection-end-column="62" />
-          <folding>
-            <element signature="e#3654#3655#0" expanded="true" />
-            <element signature="e#3682#3683#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/xu/vediorental/doMain/view/AllFile.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="36" column="16" selection-start-line="36" selection-start-column="16" selection-end-line="36" selection-end-column="16" />
-          <folding>
-            <element signature="e#504#505#0" expanded="true" />
-            <element signature="e#525#526#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/xu/vediorental/util/GetDataUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-107">
-          <caret line="95" column="5" lean-forward="true" selection-start-line="95" selection-start-column="5" selection-end-line="95" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/xu/vediorental/client/AdministratorPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
-          <caret line="515" column="36" selection-start-line="515" selection-start-column="36" selection-end-line="515" selection-end-column="36" />
-          <folding>
-            <element signature="e#18262#19976#0" expanded="true" />
-            <element signature="e#19975#19976#0" expanded="true" />
-            <element signature="e#20021#20926#0" expanded="true" />
-            <element signature="e#20925#20926#0" expanded="true" />
-            <element signature="e#20974#22126#0" expanded="true" />
-            <element signature="e#22125#22126#0" expanded="true" />
-            <element signature="e#22170#23435#0" expanded="true" />
-            <element signature="e#23434#23435#0" expanded="true" />
-            <element signature="e#23482#24469#0" expanded="true" />
-            <element signature="e#24468#24469#0" expanded="true" />
-            <element signature="e#24513#25877#0" expanded="true" />
-            <element signature="e#25876#25877#0" expanded="true" />
-            <element signature="e#25918#27440#0" expanded="true" />
-            <element signature="e#27439#27440#0" expanded="true" />
-            <element signature="e#27476#27762#0" expanded="true" />
-            <element signature="e#27761#27762#0" expanded="true" />
-            <element signature="e#27801#29170#0" expanded="true" />
-            <element signature="e#29169#29170#0" expanded="true" />
-            <element signature="e#29212#29382#0" expanded="true" />
-            <element signature="e#29381#29382#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="744">
+          <caret line="31" lean-forward="true" selection-start-line="31" selection-end-line="31" />
         </state>
       </provider>
     </entry>

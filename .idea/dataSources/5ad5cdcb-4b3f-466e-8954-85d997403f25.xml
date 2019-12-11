@@ -1113,7 +1113,7 @@
     <table id="279" parent="8" name="fileinfo"/>
     <table id="280" parent="8" name="recordinfo"/>
     <table id="281" parent="8" name="userinfo"/>
-    <table id="282" parent="8" name="vedioinfo">
+    <table id="282" parent="8" name="videoinfo">
       <Collation>utf8mb4_0900_as_ci</Collation>
     </table>
     <view id="283" parent="8" name="allfile">
@@ -1125,7 +1125,7 @@
     <view id="285" parent="8" name="vacantfile">
       <SourceTextLength>296</SourceTextLength>
     </view>
-    <view id="286" parent="8" name="vediorecording">
+    <view id="286" parent="8" name="videorecording">
       <SourceTextLength>170</SourceTextLength>
     </view>
     <column id="287" parent="279" name="id">
@@ -1166,7 +1166,7 @@
     <foreign-key id="294" parent="279" name="vid">
       <ColNames>vid</ColNames>
       <RefSchemaName>vediorent</RefSchemaName>
-      <RefTableName>vedioinfo</RefTableName>
+      <RefTableName>videoinfo</RefTableName>
       <RefColNames>id</RefColNames>
       <OnUpdate>cascade</OnUpdate>
       <OnDelete>cascade</OnDelete>
